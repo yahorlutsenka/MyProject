@@ -20,3 +20,4 @@ $query = "SELECT * FROM $lbl_maintexts
 		</div>
 		</div>
 	<?php require_once ('templates/bottom.php');?>
+	//sgfsdfsdfsdfsdfsd
