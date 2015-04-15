@@ -1,0 +1,102 @@
+
+.tovar{
+	float: left;
+	width: 200 px;
+	padding: 10 px;
+	border: solid 1 px black;
+	margin: 10 px;
+	box-shadow: 2 px 2 px 2 px block;
+	border-radius: 6 px;
+
+}
+
+
+
+#header {
+height:150px;
+background:url("media/img/fon.jpg");
+}
+
+#logo {
+height:100px;
+float:left;
+padding-left:70px;
+}
+
+#headlink{
+font-size:20px;
+float:right;
+padding:50px;
+}
+
+body{  
+padding:0;
+margin:0;
+}
+
+.topmenu{
+display:-moz-box;
+display:-webkit-flex;
+display:flex;
+text-align:center;
+flex-direction: row;
+width:100%;
+margin:0 auto;
+}
+
+.topmenu a{
+display:block;
+-moz-box-flex:1;
+-webkit-flex:1;
+flex:1;
+font-size:18px;
+padding:10px;
+color:red;
+background:green;
+text-decoration:none;
+border-right:1px red solid;
+}
+
+.topmenu a:hover{
+background:orange;
+color:green;
+}
+
+.menu a{
+width:100%;
+margin-top:2px;
+}
+
+#footer{
+background:#999;
+padding-top:40px;
+padding-bottom:40px;
+text-align:center;
+}
+
+#foter a{
+color:green;
+}
+
+.maintext{
+font-size:17px;
+}
+
+@media screen and (max-width: 768px){
+#logo{
+display:none;
+}
+
+#header{
+height:200px;
+}
+
+.topmenu{
+flex-direction:column;
+}
+}
+
+
+
+
+
